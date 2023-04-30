@@ -1,9 +1,10 @@
-﻿using HopShopV2.Models;
+﻿using Core.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace HopShopV2.Controllers
+namespace TheHopShopV2.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
